@@ -392,6 +392,14 @@ export const MESSAGE_REGISTRY = {
       "en": "Auto-login link",
       "zh": "自动登录链接"
     },
+    "autoLoginQrCode": {
+      "en": "Scan to open on mobile",
+      "zh": "手机扫码打开"
+    },
+    "autoLoginQrCodeTip": {
+      "en": "Anyone with this QR code can access this mailbox. Do not share it.",
+      "zh": "任何获取此二维码的人都可以访问该邮箱，请勿分享。"
+    },
     "copyFailed": {
       "en": "Copy failed",
       "zh": "复制失败"
@@ -2637,6 +2645,10 @@ export const MESSAGE_REGISTRY = {
     "create_address_subdomain_match_tip": {
       "en": "Only affects /api/new_address and /admin/new_address domain validation. Example: when enabled, foo.example.com can match configured base domain example.com.",
       "zh": "仅影响 /api/new_address 和 /admin/new_address 的域名校验。例如开启后，foo.example.com 可以匹配已配置的基础域名 example.com。"
+    },
+    "delete_original": {
+      "en": "Delete original after forwarding",
+      "zh": "转发成功后删除原邮件"
     },
     "delete_rule": {
       "en": "Delete",
